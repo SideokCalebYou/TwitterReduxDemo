@@ -7,21 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B90C0971EAC9667002EF6F6 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B90C0961EAC9667002EF6F6 /* ProfileViewController.swift */; };
+		8B90C0991EAC9678002EF6F6 /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B90C0981EAC9678002EF6F6 /* TimelineViewController.swift */; };
+		8B90C09B1EAC9687002EF6F6 /* MentionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B90C09A1EAC9687002EF6F6 /* MentionsViewController.swift */; };
+		8B90C09D1EAC9BBE002EF6F6 /* TweetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B90C09C1EAC9BBE002EF6F6 /* TweetCell.swift */; };
 		8BD0FE4B1EAAB59F0051DEE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD0FE4A1EAAB59F0051DEE4 /* AppDelegate.swift */; };
-		8BD0FE4D1EAAB59F0051DEE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD0FE4C1EAAB59F0051DEE4 /* ViewController.swift */; };
 		8BD0FE501EAAB59F0051DEE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BD0FE4E1EAAB59F0051DEE4 /* Main.storyboard */; };
 		8BD0FE521EAAB59F0051DEE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BD0FE511EAAB59F0051DEE4 /* Assets.xcassets */; };
 		8BD0FE551EAAB59F0051DEE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BD0FE531EAAB59F0051DEE4 /* LaunchScreen.storyboard */; };
+		8BD0FE5F1EAAB67F0051DEE4 /* HamburgerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD0FE5E1EAAB67F0051DEE4 /* HamburgerViewController.swift */; };
+		8BD0FE621EAABB470051DEE4 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD0FE611EAABB470051DEE4 /* MenuViewController.swift */; };
+		8BD0FE641EAABC0E0051DEE4 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD0FE631EAABC0E0051DEE4 /* MenuCell.swift */; };
+		8BE405731EAC8FD700C8361F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE405721EAC8FD700C8361F /* LoginViewController.swift */; };
+		8BE405751EAC90B600C8361F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE405741EAC90B600C8361F /* User.swift */; };
+		8BE405771EAC90BE00C8361F /* Twitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE405761EAC90BE00C8361F /* Twitter.swift */; };
+		8BE405791EAC90C800C8361F /* TwitterClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE405781EAC90C800C8361F /* TwitterClient.swift */; };
+		D9926976B79D24A9582535FF /* Pods_HamburgerDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DEB97C08799E2078C079139 /* Pods_HamburgerDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		291C996DD017EFAB1D131603 /* Pods-HamburgerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HamburgerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HamburgerDemo/Pods-HamburgerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		6DEB97C08799E2078C079139 /* Pods_HamburgerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HamburgerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ED28AE1C08BD63316DECF56 /* Pods-HamburgerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HamburgerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HamburgerDemo/Pods-HamburgerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8B90C0961EAC9667002EF6F6 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		8B90C0981EAC9678002EF6F6 /* TimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
+		8B90C09A1EAC9687002EF6F6 /* MentionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MentionsViewController.swift; sourceTree = "<group>"; };
+		8B90C09C1EAC9BBE002EF6F6 /* TweetCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetCell.swift; sourceTree = "<group>"; };
 		8BD0FE471EAAB59F0051DEE4 /* HamburgerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HamburgerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BD0FE4A1EAAB59F0051DEE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8BD0FE4C1EAAB59F0051DEE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8BD0FE4F1EAAB59F0051DEE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8BD0FE511EAAB59F0051DEE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BD0FE541EAAB59F0051DEE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BD0FE561EAAB59F0051DEE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BD0FE5E1EAAB67F0051DEE4 /* HamburgerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HamburgerViewController.swift; sourceTree = "<group>"; };
+		8BD0FE611EAABB470051DEE4 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		8BD0FE631EAABC0E0051DEE4 /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		8BE405721EAC8FD700C8361F /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8BE405741EAC90B600C8361F /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		8BE405761EAC90BE00C8361F /* Twitter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Twitter.swift; sourceTree = "<group>"; };
+		8BE405781EAC90C800C8361F /* TwitterClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +53,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9926976B79D24A9582535FF /* Pods_HamburgerDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		50B541CDAF46C46A57F83649 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7ED28AE1C08BD63316DECF56 /* Pods-HamburgerDemo.debug.xcconfig */,
+				291C996DD017EFAB1D131603 /* Pods-HamburgerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8BD0FE3E1EAAB59F0051DEE4 = {
 			isa = PBXGroup;
 			children = (
 				8BD0FE491EAAB59F0051DEE4 /* HamburgerDemo */,
 				8BD0FE481EAAB59F0051DEE4 /* Products */,
+				50B541CDAF46C46A57F83649 /* Pods */,
+				C92E4721A720EAB3537478BD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +90,64 @@
 		8BD0FE491EAAB59F0051DEE4 /* HamburgerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8BE405711EAC8F4100C8361F /* Models */,
+				8BE405701EAC8F3C00C8361F /* Views */,
+				8BE4056F1EAC8F3900C8361F /* API */,
+				8BD0FE601EAABB310051DEE4 /* View Controllers */,
 				8BD0FE4A1EAAB59F0051DEE4 /* AppDelegate.swift */,
-				8BD0FE4C1EAAB59F0051DEE4 /* ViewController.swift */,
 				8BD0FE4E1EAAB59F0051DEE4 /* Main.storyboard */,
 				8BD0FE511EAAB59F0051DEE4 /* Assets.xcassets */,
 				8BD0FE531EAAB59F0051DEE4 /* LaunchScreen.storyboard */,
 				8BD0FE561EAAB59F0051DEE4 /* Info.plist */,
 			);
 			path = HamburgerDemo;
+			sourceTree = "<group>";
+		};
+		8BD0FE601EAABB310051DEE4 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8BE405721EAC8FD700C8361F /* LoginViewController.swift */,
+				8BD0FE5E1EAAB67F0051DEE4 /* HamburgerViewController.swift */,
+				8BD0FE611EAABB470051DEE4 /* MenuViewController.swift */,
+				8B90C0961EAC9667002EF6F6 /* ProfileViewController.swift */,
+				8B90C0981EAC9678002EF6F6 /* TimelineViewController.swift */,
+				8B90C09A1EAC9687002EF6F6 /* MentionsViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		8BE4056F1EAC8F3900C8361F /* API */ = {
+			isa = PBXGroup;
+			children = (
+				8BE405781EAC90C800C8361F /* TwitterClient.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		8BE405701EAC8F3C00C8361F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8BD0FE631EAABC0E0051DEE4 /* MenuCell.swift */,
+				8B90C09C1EAC9BBE002EF6F6 /* TweetCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		8BE405711EAC8F4100C8361F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8BE405741EAC90B600C8361F /* User.swift */,
+				8BE405761EAC90BE00C8361F /* Twitter.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		C92E4721A720EAB3537478BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DEB97C08799E2078C079139 /* Pods_HamburgerDemo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +157,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8BD0FE591EAAB59F0051DEE4 /* Build configuration list for PBXNativeTarget "HamburgerDemo" */;
 			buildPhases = (
+				6F2FE5E04141FC8D55D08FA3 /* [CP] Check Pods Manifest.lock */,
 				8BD0FE431EAAB59F0051DEE4 /* Sources */,
 				8BD0FE441EAAB59F0051DEE4 /* Frameworks */,
 				8BD0FE451EAAB59F0051DEE4 /* Resources */,
+				0B399F2A5A036B080BA57CB2 /* [CP] Embed Pods Frameworks */,
+				A84ADC6D461FAFF5F36C48B7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +220,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B399F2A5A036B080BA57CB2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HamburgerDemo/Pods-HamburgerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F2FE5E04141FC8D55D08FA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A84ADC6D461FAFF5F36C48B7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HamburgerDemo/Pods-HamburgerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8BD0FE431EAAB59F0051DEE4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BD0FE4D1EAAB59F0051DEE4 /* ViewController.swift in Sources */,
+				8BD0FE5F1EAAB67F0051DEE4 /* HamburgerViewController.swift in Sources */,
+				8BD0FE621EAABB470051DEE4 /* MenuViewController.swift in Sources */,
+				8BD0FE641EAABC0E0051DEE4 /* MenuCell.swift in Sources */,
 				8BD0FE4B1EAAB59F0051DEE4 /* AppDelegate.swift in Sources */,
+				8BE405731EAC8FD700C8361F /* LoginViewController.swift in Sources */,
+				8B90C09B1EAC9687002EF6F6 /* MentionsViewController.swift in Sources */,
+				8BE405751EAC90B600C8361F /* User.swift in Sources */,
+				8B90C0971EAC9667002EF6F6 /* ProfileViewController.swift in Sources */,
+				8BE405771EAC90BE00C8361F /* Twitter.swift in Sources */,
+				8B90C09D1EAC9BBE002EF6F6 /* TweetCell.swift in Sources */,
+				8B90C0991EAC9678002EF6F6 /* TimelineViewController.swift in Sources */,
+				8BE405791EAC90C800C8361F /* TwitterClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +405,7 @@
 		};
 		8BD0FE5A1EAAB59F0051DEE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ED28AE1C08BD63316DECF56 /* Pods-HamburgerDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HamburgerDemo/Info.plist;
@@ -270,6 +418,7 @@
 		};
 		8BD0FE5B1EAAB59F0051DEE4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 291C996DD017EFAB1D131603 /* Pods-HamburgerDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HamburgerDemo/Info.plist;
@@ -299,6 +448,7 @@
 				8BD0FE5B1EAAB59F0051DEE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
